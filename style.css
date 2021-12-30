@@ -1,0 +1,35 @@
+h5
+{
+	padding: 50px;
+	font-size: 35px;
+	margin: 20px;
+	color: #fff;
+	background-color: grey;
+	text-align: center;
+}
+
+.loss
+{
+	background-color: red;
+	margin: 20px;
+	padding: 20px;
+	font-size: 20px;
+}
+
+.won
+{
+	background-color: green;
+	margin: 20px;
+	padding: 20px;
+	font-size: 20px;
+}
+
+body
+{
+	background-image: url(img.png);
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: center;
+	min-height: 1000px;
+	margin-bottom: -50px;
+}
