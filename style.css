@@ -1,0 +1,27 @@
+body
+{
+    background-color: black;
+}
+
+
+h5
+{
+	text-align: center;
+	font-size: 40px;
+	margin: 20px;
+	padding: 50px;
+	background-color: grey;
+	color: #fff;
+}
+
+p
+{
+	text-align: center;
+	font-size: 30px;
+	margin: 20px;
+	padding: 50px;
+	background-color: grey;
+	color: #fff;
+	word-wrap: break-word;
+	letter-spacing: 12px;
+}
