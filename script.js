@@ -2,29 +2,29 @@
 var employees = 
 [
     {
-        name: "Mudasar Ahmad",
-        email: "Mud@gmail.com",
+        name: "Test User",
+        email: "testuser@gmail.com",
         profilePic: "images/img-1.jpg",
         isOnline: true
     },
     
     {
-        name: "Bibi Shireen",
-        email: "Bs@gmail.com",
+        name: "Test user 1",
+        email: "testuser1@gmail.com",
         profilePic: "images/img-2.jpg",
         isOnline: false
     },
     
     {
-        name: "Penno mai",
-        email: "Penno@gmail.com",
+        name: "Test user",
+        email: "testuser2@gmail.com",
         profilePic: "images/img-3.jpg",
         isOnline: true
     },
     
     {
-        name: "Bashir Butt",
-        email: "ahmad@gmail.com",
+        name: "Test user 3",
+        email: "testuser3@gmail.com",
         profilePic: "images/img-4.jpg",
         isOnline: true
     },
