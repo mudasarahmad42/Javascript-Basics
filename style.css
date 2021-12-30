@@ -1,0 +1,122 @@
+h5.header
+{
+	padding: 20px;
+	margin: 20px;
+	font-size: 30px;
+	background-color: grey;
+	text-align: center;
+	background-image: url(images/header.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	border-style: solid;
+	border-color: black;
+}
+
+body
+{
+	background-image: url(images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.person
+{
+    padding: 20px;
+    margin: 0px;
+    background-color: lightgray;
+    display: flex;
+    position: relative;
+    margin-right: 45px;
+    background-image: url(images/header.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+img
+{
+    max-width: 100px;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    border-color: black;
+    border-bottom-style: ridge
+}
+
+ul
+{
+    list-style-type: none;
+
+}
+
+.person-info h2
+{
+    font-size: 2.5em;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin: 0px;
+    color: #fff;
+}
+
+.person-info h3
+{
+    font-size: 1.0em;
+    padding: 0px;
+    margin: 10px;
+    color: lightgrey;
+}
+
+.person span
+{
+    border: solid;
+    display:block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 80%;
+    top: 20px;
+    margin-left: 50px;
+    border-radius: 50px;
+    transition: 1s ease-in-out;
+}
+
+.person.is-online span
+{
+  background-color: red;
+    background: linear-gradient(-30deg, green 50%, green 50%);
+  padding: 20px 40px;
+  margin: 12px;
+  display: inline-block;
+  -webkit-transform: translate(0%, 0%);
+          transform: translate(0%, 0%);
+  overflow: hidden;
+  color: black;
+  font-size: 20px;
+  letter-spacing: 2.5px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-box-shadow: 0 20px 50px green;
+          box-shadow: 0 20px 50px green;
+
+}
+
+.person.is-offline span
+{
+    background-color: red;
+    background: linear-gradient(-30deg, maroon 50%, maroon 50%);
+  padding: 20px 40px;
+  margin: 12px;
+  display: inline-block;
+  -webkit-transform: translate(0%, 0%);
+          transform: translate(0%, 0%);
+  overflow: hidden;
+  color: black;
+  font-size: 20px;
+  letter-spacing: 2.5px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-box-shadow: 0 20px 50px red;
+          box-shadow: 0 20px 50px red;
+}
