@@ -1,0 +1,63 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Bowlby One SC', cursive;
+    text-align: center;
+    background-image: url(images/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(38, 25, 53);
+}
+
+h1 {
+    text-align: center;
+    padding: 50px;
+    margin: 20px;
+    background-color: blueviolet;
+    color: #fff;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(118, 45, 72);
+}
+
+p {
+    margin-top: 100px;
+    font-size: 8em;
+    background-color: blueviolet;
+    display: none;
+    margin-left: 30px;
+    border-radius: 20px;
+    padding: 20px;
+    color: #fff;
+    animation-name: anim;
+    animation-fill-mode: forwards;
+}
+
+.print {
+    font-size: 2em;
+    background-color: blueviolet;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 20px;
+    color: #fff;
+    animation-name: anim;
+    animation-duration: 0.25s;
+}
+
+@keyframes anim {
+    0% {
+        opacity: 1;
+        transform: scale(4);
+    }
+    50% {
+        opacity: 0.5;
+        transform: scale(2);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1);
+    }
+}
